@@ -1,0 +1,17 @@
+{
+    "name": "some-workspace",
+    "version": "1.0.0",
+    "contributors": [
+        "Alon Mizrahi"
+    ],
+    "private": true,
+    "dependencies": {
+        "axios": "0.21.0"
+    },
+    "workspaces": {
+        "packages": [
+            "package-a",
+            "package-b"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "package-b",
+    "version": "1.0.0",
+    "contributors": [
+        "Alon Mizrahi"
+    ],
+    "private": true,
+    "dependencies": {
+        "react": "17.0.0"
+    },
+    "devDependencies": {
+        "moment": "2.29.0"
+    }
+}
