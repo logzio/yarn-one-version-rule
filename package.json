@@ -1,6 +1,6 @@
 {
     "name": "yarn-one-version-rule",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Enforce the One Version Rule on yarn workspaces",
     "license": "MIT",
     "main": "index.js",
@@ -14,7 +14,7 @@
     },
     "author": "Alon Mizrahi",
     "dependencies": {
-        "yargs": "16.1.1"
+        "yargs": "^16.1.1"
     },
     "devDependencies": {
         "jest": "26.6.3"

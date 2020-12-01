@@ -35,7 +35,7 @@ const depsWithDuplicatedPackagesVersions = Object.values(getAllDependenciesVersi
 if (depsWithDuplicatedPackagesVersions.length > 0) {
   console.error(`you have several declarations of packages with different versions`);
   depsWithDuplicatedPackagesVersions.forEach(info => {
-    console.error(`package: ${info.dep} have multiple version declarations ${info.versions}`);
+    console.error(`package: ${info.dep} have multiple version declarations ${info.versions.join(', ')}`);
   });
   console.error(`more about the "One Version Rule" https://opensource.google/docs/thirdparty/oneversion/`);
   process.exit(1);
