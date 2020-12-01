@@ -1,7 +1,7 @@
 const path = require('path');
 const { execSync } = require('child_process');
 
-function getAllDependenciesVersions({ ignorePackages = [], rootDir = path.resolve(__dirname, '../'), verbose = false }) {
+function getAllDependenciesVersions({ ignorePackages = [], rootDir = path.resolve('./'), verbose = false }) {
   rootDir = path.resolve(rootDir)
 
   if (verbose) {
