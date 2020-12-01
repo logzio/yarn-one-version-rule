@@ -8,6 +8,8 @@
 # yarn-one-version-rule
 Enforce the One Version Rule on yarn workspaces
 
+More info from google [The One Version Rule](https://opensource.google/docs/thirdparty/oneversion)
+
 
 ## Quick Start
 ```sh
