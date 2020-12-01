@@ -1,12 +1,12 @@
 {
     "name": "yarn-one-version-rule",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Enforce the One Version Rule on yarn workspaces",
     "license": "MIT",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/logzio/node-toolbox.git"
+        "url": "https://github.com/logzio/yarn-one-version-rule.git"
     },
     "bin": "./bin.js",
     "scripts": {
