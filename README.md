@@ -14,12 +14,6 @@ More info from google [The One Version Rule](https://opensource.google/docs/thir
 ## Quick Start
 ```sh
 npx yarn-one-version-rule
-
-you have several declarations of packages with different versions
-package: @babel/runtime have multiple version declarations ^7.7.7, 7.12.1
-package: inquirer have multiple version declarations 7.3.3, 6.3.1
-package: ts-loader have multiple version declarations 6.2.2, 8.0.11
-more about the "One Version Rule" https://opensource.google/docs/thirdparty/oneversion/
 ```
 
 ## Global install
@@ -46,3 +40,16 @@ Options:
 ```sh
 npx yarn-one-version-rule --ignore=webpack --ignore=lodash
 ```
+
+### Example output
+## Quick Start
+```sh
+npx yarn-one-version-rule
+
+you have several declarations of packages with different versions
+package: @babel/runtime have multiple version declarations ^7.7.7, 7.12.1
+package: inquirer have multiple version declarations 7.3.3, 6.3.1
+package: ts-loader have multiple version declarations 6.2.2, 8.0.11
+more about the "One Version Rule" https://opensource.google/docs/thirdparty/oneversion/
+```
+
