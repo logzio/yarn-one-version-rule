@@ -21,9 +21,20 @@ yarn add global yarn-one-version-rule
 yarn-one-version-rule
 ```
 
+## Options
+```
+yarn-one-version-rule --help
+
+Options:
+      --version  Show version number                                   [boolean]
+  -i, --ignore   list of packages to ignore in case of conflict          [array]
+  -r, --root     the root dir of your workspaces                        [string]
+  -v, --verbose  log extra info                                        [boolean]
+  -h, --help     Show help                                             [boolean]
+```
 
 ## Ignore certain packages
 
 ```sh
-npx yarn-one-version-rule --ignore=webpack,lodash
+npx yarn-one-version-rule --ignore=webpack --ignore=lodash
 ```
