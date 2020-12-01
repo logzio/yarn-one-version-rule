@@ -42,7 +42,6 @@ npx yarn-one-version-rule --ignore=webpack --ignore=lodash
 ```
 
 ### Example output
-## Quick Start
 ```sh
 npx yarn-one-version-rule
 
