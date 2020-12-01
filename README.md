@@ -6,7 +6,12 @@
 
 
 # yarn-one-version-rule
-Enforce the One Version Rule on yarn workspaces
+Enforce the One Version Rule when working wth yarn workspaces.  
+When working with a monorepo, you want to have one version for each 3rd party package you import.  
+The benefits are:  
+1. reducing collisions on runtime when importing two versions of the same package.
+2. reduce installation and fetching time
+3. supporting only specific version is easier when working on a big monreporo
 
 More info from google [The One Version Rule](https://opensource.google/docs/thirdparty/oneversion)
 
