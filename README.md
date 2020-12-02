@@ -11,7 +11,7 @@ When working with a monorepo, you want to have one version for each 3rd party pa
 The benefits are:  
 1. reducing collisions on runtime when importing two versions of the same package.
 2. reduce installation and fetching time
-3. supporting only specific version is easier when working on a big monreporo
+3. having only one specific version is easier when working on a big monreporo, in terms of a concise api and knowledge sharing
 
 More info from google [The One Version Rule](https://opensource.google/docs/thirdparty/oneversion)
 
