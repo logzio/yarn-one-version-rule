@@ -13,5 +13,9 @@
             "package-a",
             "package-b"
         ]
+    },
+    "resolutions": {
+        "axios": "0.21.0",
+        "lodash": "4.11.2"
     }
 }

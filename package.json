@@ -1,6 +1,6 @@
 {
     "name": "yarn-one-version-rule",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Enforce the One Version Rule on yarn workspaces",
     "license": "MIT",
     "main": "index.js",

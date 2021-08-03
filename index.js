@@ -30,6 +30,7 @@ function getAllDependenciesVersions({ ignorePackages = [], rootDir = path.resolv
     const allDependencies = [
       ...Object.entries(packageJson.dependencies || {}),
       ...Object.entries(packageJson.devDependencies || {}),
+      ...Object.entries(packageJson.resolutions || {}).map(([name,v]) => [name.replace('**/', ''), v]),
     ];
 
     allDependencies.forEach(([dep, version]) => {
